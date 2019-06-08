@@ -10,6 +10,16 @@
     <content src="index.html" />
    <access origin="*" />
 
-    <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
+    <preference name="permissions" value="none"/>
+                                          
+        <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
+    <plugin name="cordova-plugin-geolocation" spec="2.4.0" />
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+    
+    <allow-intent href="geo:*"/>
+    <platform name="android">
+        <allow-intent href="market:*"/>
+    </platform>
+                                          
   
 </widget>
