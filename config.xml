@@ -18,8 +18,5 @@
 <feature name="http://api.phonegap.com/1.0/geolocation"/>
 
    <allow-intent href="geo:*"/>
-   <platform name="android">
-       <allow-intent href="market:*"/>
-   </platform>
-  
+
 </widget>
