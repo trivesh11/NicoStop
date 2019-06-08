@@ -11,5 +11,6 @@
    <access origin="*" />
 
     <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
- <plugin name="cordova-plugin-geolocation" spec="https://github.com/apache/cordova-plugin-geolocation" source="git"/>
+  $ cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git
+    $ cordova plugin rm org.apache.cordova.core.inappbrowser
 </widget>
