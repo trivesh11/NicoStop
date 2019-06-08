@@ -16,7 +16,7 @@
 
    <plugin name="cordova-plugin-geolocation" spec="2.4.0" />
 
-
+<allow-navigation href="*" />
    <allow-intent href="geo:*"/>
     <platform name="android">
        <allow-intent href="market:*"/>
