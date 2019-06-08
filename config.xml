@@ -9,7 +9,8 @@
     </author>
     <content src="index.html" />
    <access origin="*" />
-
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.INTERNET" />
     <preference name="permissions" value="none"/>
                                           
    <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
