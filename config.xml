@@ -11,16 +11,5 @@
    <access origin="*" />
 
     <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
-   
-
-    <!-- According to the docs you only need this block -->
-    <!-- This plugin provides information about the device's location, such as latitude and longitude. -->
-    <plugin name="cordova-plugin-geolocation" spec="~4">
-        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="This app uses your location for maps." />
-</plugin>
-      <platform name="android">
-        <uses-permission name="android.permission.ACCESS_COARSE_LOCATION" />
-        <uses-permission name="android.permission.ACCESS_FINE_LOCATION" />
-        <uses-permission name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-</platform>
+  <plugin name="org.apache.cordova.geolocation" spec="0.3.7" source="pgb" />
 </widget>
