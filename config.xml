@@ -18,6 +18,7 @@
 
 <allow-navigation href="*" />
    <allow-intent href="geo:*"/>
+    <allow-intent href="https://esri.github.io"/>
     <platform name="android">
        <allow-intent href="market:*"/>
    </platform>
