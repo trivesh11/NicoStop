@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
    <access origin="*" />
-<preference name="phonegap-version" value="3.7.0" />
+
     <preference name="permissions" value="none"/>
                                           
    <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
