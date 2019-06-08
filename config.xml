@@ -11,7 +11,7 @@
    <access origin="*" />
 
     <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
-    <preference name="phonegap-version" value="cli-8.0.0" />
+   
 
     <!-- According to the docs you only need this block -->
     <!-- This plugin provides information about the device's location, such as latitude and longitude. -->
