@@ -17,6 +17,7 @@
    <plugin name="cordova-plugin-geolocation" spec="2.4.0" />
 
 <allow-navigation href="*" />
+    <allow-intent href="https://*/*" />
    <allow-intent href="geo:*"/>
     <allow-intent href="https://esri.github.io"/>
     <platform name="android">
