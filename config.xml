@@ -11,5 +11,5 @@
    <access origin="*" />
 
     <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
-  <plugin name="org.apache.cordova.geolocation" spec="0.3.7" source="pgb" />
+  
 </widget>
