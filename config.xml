@@ -9,7 +9,9 @@
     </author>
     <content src="index.html" />
    <access origin="*" />
-
+<feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.GeoBroker" />
+</feature>
     <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
 cordova plugin add https://github.com/apache/cordova-plugin-geolocation.git
 </widget>
