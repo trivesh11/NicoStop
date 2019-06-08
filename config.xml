@@ -14,7 +14,7 @@
                                           
    <plugin name="cordova-plugin-call-number" spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
 
-   <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
+   <plugin name="cordova-plugin-geolocation" spec="2.4.0" />
 
 
    <allow-intent href="geo:*"/>
